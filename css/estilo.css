@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+header{
+display: flexbox;
+align-items: center;
+justify-content: center;
+padding: 20px;
+background-color: aqua;
+color: rgb(82, 18, 155);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form div {
+display: flexbox;
+flex-direction: column;
+margin-bottom: 4px;
+}
+form input {
+    outline: unset;
+    padding: 10px;
+    min-width: 300px;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+}
+form input:focus, form textarea:focus {
+    background-color: rgb(230, 225, 222);
+}
+form input[type-submit] {
+    background-color: aqua;
+    color: blue;
+    cursor: pointer;
+}
+form label {
+    margin-left: 10px;
+}
